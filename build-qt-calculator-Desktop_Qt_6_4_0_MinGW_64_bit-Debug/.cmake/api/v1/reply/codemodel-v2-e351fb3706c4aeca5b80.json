@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-3d83586377d642c1f630.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "qt-calculator",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "qt-calculator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt-calculator-Debug-777c78154d5191f554b8.json",
+					"name" : "qt-calculator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt-calculator_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt-calculator_autogen-Debug-7ff4dbcbd98144bfce17.json",
+					"name" : "qt-calculator_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt-calculator_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt-calculator_autogen_timestamp_deps-Debug-7f570f9d8b273a6ba202.json",
+					"name" : "qt-calculator_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
+		"source" : "C:/Users/jaspl/VS Projects/QT/qt-calculator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

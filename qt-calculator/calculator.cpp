@@ -31,6 +31,7 @@ calculator::calculator(QWidget *parent) : QMainWindow(parent), ui(new Ui::calcul
     connect(ui->buttonMul, SIGNAL(released()), this, SLOT(math_button_pressed()));
     connect(ui->buttonDiv, SIGNAL(released()), this, SLOT(math_button_pressed()));
     connect(ui->buttonEqual, SIGNAL(released()), this, SLOT(equal_button_pressed()));
+    connect(ui->buttonAC, SIGNAL(released()), this, SLOT(ac_button_pressed()));
 }
 
 

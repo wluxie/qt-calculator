@@ -1,0 +1,107 @@
+# ninja log v5
+33	430	0	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	dd95ce73f52efea9
+3	3889	6873911892717267	qt-calculator_autogen/timestamp	65fc29372fd0fefd
+3	3889	6873911892717267	qt-calculator_autogen/mocs_compilation.cpp	65fc29372fd0fefd
+3	3889	6873911892717267	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/qt-calculator_autogen/timestamp	65fc29372fd0fefd
+3	3889	6873911892717267	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/qt-calculator_autogen/mocs_compilation.cpp	65fc29372fd0fefd
+3898	10790	6873911969540895	CMakeFiles/qt-calculator.dir/qt-calculator_autogen/mocs_compilation.cpp.obj	fecb02470ae7e56b
+3959	11028	6873911972059534	CMakeFiles/qt-calculator.dir/main.cpp.obj	253eacce9e1fcc57
+27	330	0	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	dd95ce73f52efea9
+22	1457	6873912466031071	qt-calculator_autogen/timestamp	65fc29372fd0fefd
+22	1457	6873912466031071	qt-calculator_autogen/mocs_compilation.cpp	65fc29372fd0fefd
+22	1457	6873912466031071	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/qt-calculator_autogen/timestamp	65fc29372fd0fefd
+22	1457	6873912466031071	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/qt-calculator_autogen/mocs_compilation.cpp	65fc29372fd0fefd
+1519	6196	6873912513405324	CMakeFiles/qt-calculator.dir/calculator.cpp.obj	403ec787d9218a34
+39	528	0	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	dd95ce73f52efea9
+32	5058	6873912833360691	qt-calculator_autogen/timestamp	65fc29372fd0fefd
+32	5058	6873912833360691	qt-calculator_autogen/mocs_compilation.cpp	65fc29372fd0fefd
+32	5058	6873912833360691	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/qt-calculator_autogen/timestamp	65fc29372fd0fefd
+32	5058	6873912833360691	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/qt-calculator_autogen/mocs_compilation.cpp	65fc29372fd0fefd
+5208	12258	6873912917607197	CMakeFiles/qt-calculator.dir/qt-calculator_autogen/mocs_compilation.cpp.obj	fecb02470ae7e56b
+5163	12389	6873912918900531	CMakeFiles/qt-calculator.dir/main.cpp.obj	253eacce9e1fcc57
+5060	13002	6873912925087835	CMakeFiles/qt-calculator.dir/calculator.cpp.obj	403ec787d9218a34
+13003	13841	6873912933168815	qt-calculator.exe	dc14d9447995e211
+26	345	0	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	dd95ce73f52efea9
+24	1508	6873914163945400	qt-calculator_autogen/timestamp	65fc29372fd0fefd
+24	1508	6873914163945400	qt-calculator_autogen/mocs_compilation.cpp	65fc29372fd0fefd
+24	1508	6873914163945400	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/qt-calculator_autogen/timestamp	65fc29372fd0fefd
+24	1508	6873914163945400	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/qt-calculator_autogen/mocs_compilation.cpp	65fc29372fd0fefd
+1564	6437	6873914213225560	CMakeFiles/qt-calculator.dir/calculator.cpp.obj	403ec787d9218a34
+6439	7258	6873914221215099	qt-calculator.exe	dc14d9447995e211
+36	641	0	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	dd95ce73f52efea9
+36	5287	6873917761963753	qt-calculator_autogen/timestamp	65fc29372fd0fefd
+36	5287	6873917761963753	qt-calculator_autogen/mocs_compilation.cpp	65fc29372fd0fefd
+36	5287	6873917761963753	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/qt-calculator_autogen/timestamp	65fc29372fd0fefd
+36	5287	6873917761963753	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/qt-calculator_autogen/mocs_compilation.cpp	65fc29372fd0fefd
+5288	11957	6873917838521769	CMakeFiles/qt-calculator.dir/qt-calculator_autogen/mocs_compilation.cpp.obj	fecb02470ae7e56b
+5352	12153	6873917840522202	CMakeFiles/qt-calculator.dir/main.cpp.obj	253eacce9e1fcc57
+5427	12685	6873917845867570	CMakeFiles/qt-calculator.dir/calculator.cpp.obj	403ec787d9218a34
+12686	13513	6873917853894711	qt-calculator.exe	dc14d9447995e211
+38	540	0	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	dd95ce73f52efea9
+33	2038	6873918159318627	qt-calculator_autogen/timestamp	65fc29372fd0fefd
+33	2038	6873918159318627	qt-calculator_autogen/mocs_compilation.cpp	65fc29372fd0fefd
+33	2038	6873918159318627	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/qt-calculator_autogen/timestamp	65fc29372fd0fefd
+33	2038	6873918159318627	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/qt-calculator_autogen/mocs_compilation.cpp	65fc29372fd0fefd
+2140	8533	6873918224385423	CMakeFiles/qt-calculator.dir/calculator.cpp.obj	403ec787d9218a34
+8534	9330	6873918232131342	qt-calculator.exe	dc14d9447995e211
+25	369	0	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	dd95ce73f52efea9
+19	3135	6873929832495047	qt-calculator_autogen/timestamp	65fc29372fd0fefd
+19	3135	6873929832495047	qt-calculator_autogen/mocs_compilation.cpp	65fc29372fd0fefd
+19	3135	6873929832495047	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/qt-calculator_autogen/timestamp	65fc29372fd0fefd
+19	3135	6873929832495047	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/qt-calculator_autogen/mocs_compilation.cpp	65fc29372fd0fefd
+27	438	0	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	dd95ce73f52efea9
+28	5007	6873930480811421	qt-calculator_autogen/timestamp	65fc29372fd0fefd
+28	5007	6873930480811421	qt-calculator_autogen/mocs_compilation.cpp	65fc29372fd0fefd
+28	5007	6873930480811421	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/qt-calculator_autogen/timestamp	65fc29372fd0fefd
+28	5007	6873930480811421	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/qt-calculator_autogen/mocs_compilation.cpp	65fc29372fd0fefd
+56	725	0	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	dd95ce73f52efea9
+36	6626	6873931359309277	qt-calculator_autogen/timestamp	65fc29372fd0fefd
+36	6626	6873931359309277	qt-calculator_autogen/mocs_compilation.cpp	65fc29372fd0fefd
+36	6626	6873931359309277	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/qt-calculator_autogen/timestamp	65fc29372fd0fefd
+36	6626	6873931359309277	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/qt-calculator_autogen/mocs_compilation.cpp	65fc29372fd0fefd
+33	555	0	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	dd95ce73f52efea9
+31	6990	6873932995711988	qt-calculator_autogen/timestamp	65fc29372fd0fefd
+31	6990	6873932995711988	qt-calculator_autogen/mocs_compilation.cpp	65fc29372fd0fefd
+31	6990	6873932995711988	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/qt-calculator_autogen/timestamp	65fc29372fd0fefd
+31	6990	6873932995711988	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/qt-calculator_autogen/mocs_compilation.cpp	65fc29372fd0fefd
+64	890	0	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	dd95ce73f52efea9
+40	6473	6873934724119730	qt-calculator_autogen/timestamp	65fc29372fd0fefd
+40	6473	6873934724119730	qt-calculator_autogen/mocs_compilation.cpp	65fc29372fd0fefd
+40	6473	6873934724119730	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/qt-calculator_autogen/timestamp	65fc29372fd0fefd
+40	6473	6873934724119730	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/qt-calculator_autogen/mocs_compilation.cpp	65fc29372fd0fefd
+39	487	0	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	dd95ce73f52efea9
+31	7095	6873935248499809	qt-calculator_autogen/timestamp	65fc29372fd0fefd
+31	7095	6873935248499809	qt-calculator_autogen/mocs_compilation.cpp	65fc29372fd0fefd
+31	7095	6873935248499809	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/qt-calculator_autogen/timestamp	65fc29372fd0fefd
+31	7095	6873935248499809	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/qt-calculator_autogen/mocs_compilation.cpp	65fc29372fd0fefd
+7208	16763	6873935361084447	CMakeFiles/qt-calculator.dir/qt-calculator_autogen/mocs_compilation.cpp.obj	fecb02470ae7e56b
+7274	16973	6873935363371015	CMakeFiles/qt-calculator.dir/main.cpp.obj	253eacce9e1fcc57
+59	803	0	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	dd95ce73f52efea9
+42	1988	6873936061110283	qt-calculator_autogen/timestamp	65fc29372fd0fefd
+42	1988	6873936061110283	qt-calculator_autogen/mocs_compilation.cpp	65fc29372fd0fefd
+42	1988	6873936061110283	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/qt-calculator_autogen/timestamp	65fc29372fd0fefd
+42	1988	6873936061110283	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/qt-calculator_autogen/mocs_compilation.cpp	65fc29372fd0fefd
+45	631	0	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	dd95ce73f52efea9
+34	1987	6873937371174650	qt-calculator_autogen/timestamp	65fc29372fd0fefd
+34	1987	6873937371174650	qt-calculator_autogen/mocs_compilation.cpp	65fc29372fd0fefd
+34	1987	6873937371174650	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/qt-calculator_autogen/timestamp	65fc29372fd0fefd
+34	1987	6873937371174650	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/qt-calculator_autogen/mocs_compilation.cpp	65fc29372fd0fefd
+43	581	0	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	dd95ce73f52efea9
+33	2006	6873937856310141	qt-calculator_autogen/timestamp	65fc29372fd0fefd
+33	2006	6873937856310141	qt-calculator_autogen/mocs_compilation.cpp	65fc29372fd0fefd
+33	2006	6873937856310141	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/qt-calculator_autogen/timestamp	65fc29372fd0fefd
+33	2006	6873937856310141	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/qt-calculator_autogen/mocs_compilation.cpp	65fc29372fd0fefd
+48	769	0	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	dd95ce73f52efea9
+37	2362	6873938574269148	qt-calculator_autogen/timestamp	65fc29372fd0fefd
+37	2362	6873938574269148	qt-calculator_autogen/mocs_compilation.cpp	65fc29372fd0fefd
+37	2362	6873938574269148	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/qt-calculator_autogen/timestamp	65fc29372fd0fefd
+37	2362	6873938574269148	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/qt-calculator_autogen/mocs_compilation.cpp	65fc29372fd0fefd
+2465	9764	6873938648412995	CMakeFiles/qt-calculator.dir/calculator.cpp.obj	403ec787d9218a34
+9766	10743	6873938657925419	qt-calculator.exe	dc14d9447995e211
+43	710	0	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	dd95ce73f52efea9
+35	2450	6873942200385469	qt-calculator_autogen/timestamp	65fc29372fd0fefd
+35	2450	6873942200385469	qt-calculator_autogen/mocs_compilation.cpp	65fc29372fd0fefd
+35	2450	6873942200385469	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/qt-calculator_autogen/timestamp	65fc29372fd0fefd
+35	2450	6873942200385469	C:/Users/jaspl/VS Projects/QT/build-qt-calculator-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/qt-calculator_autogen/mocs_compilation.cpp	65fc29372fd0fefd
+2550	8439	6873942260322451	CMakeFiles/qt-calculator.dir/calculator.cpp.obj	403ec787d9218a34
+8441	9254	6873942268314365	qt-calculator.exe	dc14d9447995e211
