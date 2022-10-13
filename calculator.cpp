@@ -136,3 +136,14 @@ void calculator::equal_button_pressed()
 
     ui->Display->setText(QString::number(solution));    // Set the display to the solution   
 }
+
+
+
+
+// ==== ac_button_pressed() ==============================================
+// =======================================================================
+void calculator::on_buttonAC_released()
+{
+    ui->Display->setText("0.0");                        // Set the display to "0.0"
+    calcValue = 0.0;                                    // Set the calc value to 0.0
+}

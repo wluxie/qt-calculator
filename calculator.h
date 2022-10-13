@@ -37,6 +37,7 @@ class calculator : public QMainWindow
         void num_pressed();
         void math_button_pressed();
         void equal_button_pressed();
+        void ac_button_pressed();
 };
 
 
