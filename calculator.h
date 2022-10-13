@@ -13,7 +13,6 @@ namespace Ui
     class calculator; 
 }
 QT_END_NAMESPACE
-// ======================================================================
 
 
 
@@ -26,6 +25,11 @@ class calculator : public QMainWindow
 
     private:
         Ui::calculator *ui;
+        double calcValue = 0.0;
+        bool divTrigger = false;
+        bool multTrigger = false;
+        bool addTrigger = false;
+        bool subTrigger = false;
 
     public:
         calculator(QWidget *parent = nullptr);
@@ -36,7 +40,7 @@ class calculator : public QMainWindow
         void math_button_pressed();
         void equal_button_pressed();
 };
-// ======================================================================
+
 
 
 #endif // CALCULATOR_H
