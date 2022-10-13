@@ -143,7 +143,7 @@ void calculator::equal_button_pressed()
 
 // ==== ac_button_pressed() ==============================================
 // =======================================================================
-void calculator::on_buttonAC_released()
+void calculator::ac_button_pressed()
 {
     ui->Display->setText("0.0");                        // Set the display to "0.0"
     calcValue = 0.0;                                    // Set the calc value to 0.0
