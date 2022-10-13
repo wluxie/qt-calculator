@@ -24,6 +24,13 @@ calculator::calculator(QWidget *parent) : QMainWindow(parent), ui(new Ui::calcul
                 this,                                                       // Call the calculator class
                 SLOT(num_pressed()));                                       // Call the num_pressed() slot
     }
+
+    // Connect the math buttons to the math_button_pressed() slot & the equal button to the equal_button_pressed() slot
+    connect(ui->buttonAdd, SIGNAL(released()), this, SLOT(math_button_pressed()));
+    connect(ui->buttonSub, SIGNAL(released()), this, SLOT(math_button_pressed()));
+    connect(ui->buttonMul, SIGNAL(released()), this, SLOT(math_button_pressed()));
+    connect(ui->buttonDiv, SIGNAL(released()), this, SLOT(math_button_pressed()));
+    connect(ui->buttonEqual, SIGNAL(released()), this, SLOT(equal_button_pressed()));
 }
 
 
@@ -43,6 +50,10 @@ calculator::~calculator()
 // =======================================================================
 void calculator::num_pressed()
 {
+    QPushButton *button = (QPushButton *)sender();
+    QString buttonVal = button->text();
+    QString displayVal = ui->Display->text();
+
     QString qsNewVal;
     double dbNewVal;
 
@@ -67,9 +78,14 @@ void calculator::num_pressed()
 // =======================================================================
 void calculator::math_button_pressed()
 {
+    QPushButton *button = (QPushButton *)sender();
+    QString buttonVal = button->text();
+    QString displayVal = ui->Display->text();
+
     calcValue = displayVal.toDouble();                  // Convert the display value to a double
     
-    switch (buttonVal)                                  // Switch on the first character of the button value
+    mathOperator = buttonVal[0].toLatin1();             // Convert the button value to a char
+    switch (mathOperator)                               // Switch on the first character of the button value
     {
         case '/':                                       // If the button value is "/"
             mathOperator = '/';                         // Set the math operator to "/"
@@ -95,6 +111,10 @@ void calculator::math_button_pressed()
 // =======================================================================
 void calculator::equal_button_pressed()
 {
+    QPushButton *button = (QPushButton *)sender();
+    QString buttonVal = button->text();
+    QString displayVal = ui->Display->text();
+    
     double solution = 0.0;                              // Create a double to hold the solution
     double dbDisplayVal = displayVal.toDouble();        // Convert the display value to a double
 

@@ -25,10 +25,7 @@ class calculator : public QMainWindow
 
     private:
         Ui::calculator *ui;
-        QString buttonVal = button->text();
-        QPushButton *button = (QPushButton *)sender();
-        QString displayVal = ui->Display->text();
-
+    
         double calcValue = 0.0;
         char mathOperator;
 
