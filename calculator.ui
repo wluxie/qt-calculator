@@ -385,7 +385,7 @@ QPushButton:pressed{
      </widget>
     </item>
     <item row="2" column="3">
-     <widget class="QPushButton" name="buttonMult">
+     <widget class="QPushButton" name="buttonMul">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
         <horstretch>0</horstretch>
@@ -413,7 +413,7 @@ QPushButton:pressed{
      </widget>
     </item>
     <item row="3" column="3">
-     <widget class="QPushButton" name="buttonPlus">
+     <widget class="QPushButton" name="buttonAdd">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
         <horstretch>0</horstretch>
@@ -441,7 +441,7 @@ QPushButton:pressed{
      </widget>
     </item>
     <item row="4" column="3">
-     <widget class="QPushButton" name="buttonMinus">
+     <widget class="QPushButton" name="buttonSub">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
         <horstretch>0</horstretch>
