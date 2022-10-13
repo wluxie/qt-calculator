@@ -16,7 +16,7 @@ calculator::calculator(QWidget *parent) : QMainWindow(parent), ui(new Ui::calcul
     // Loop through the array of QPushButton pointers to assign the button names
     for (int i = 0; i < 10; i++)
     {
-        buttonName = "Button" + QString::number(i);                         // Create a string with the name of the button
+        buttonName = "button" + QString::number(i);                         // Create a string with the name of the button
 
         numButtons[i] = calculator::findChild<QPushButton *>(buttonName);   // Find the button in the UI
         connect(numButtons[i],                                              // Connect the button to the num_pressed() slot
@@ -43,9 +43,6 @@ calculator::~calculator()
 // =======================================================================
 void calculator::num_pressed()
 {
-    QPushButton *button = (QPushButton *)sender();     // Create a pointer to the button that was pressed
-    QString buttonVal = button->text();                // Get the text of the button that was pressed
-    QString displayVal = ui->Display->text();          // Get the text of the display
     QString qsNewVal;
     double dbNewVal;
 
@@ -61,4 +58,61 @@ void calculator::num_pressed()
                                              'g',       // Use scientific notation if needed
                                              16));      // Set the precision to 16
     }
+}
+
+
+
+
+// ==== math_button_pressed() ============================================
+// =======================================================================
+void calculator::math_button_pressed()
+{
+    calcValue = displayVal.toDouble();                  // Convert the display value to a double
+    
+    switch (buttonVal)                                  // Switch on the first character of the button value
+    {
+        case '/':                                       // If the button value is "/"
+            mathOperator = '/';                         // Set the math operator to "/"
+            break;
+        case '*':                                       // If the button value is "*"
+            mathOperator = '*';                         // Set the math operator to "*"
+            break;
+        case '+':                                       // If the button value is "+"
+            mathOperator = '+';                         // Set the math operator to "+"
+            break;
+        case '-':                                       // If the button value is "-"
+            mathOperator = '-';                         // Set the math operator to "-"
+            break;
+    }
+
+    ui->Display->setText("");                           // Clear the display
+}
+
+
+
+
+// ==== equal_button_pressed() ===========================================
+// =======================================================================
+void calculator::equal_button_pressed()
+{
+    double solution = 0.0;                              // Create a double to hold the solution
+    double dbDisplayVal = displayVal.toDouble();        // Convert the display value to a double
+
+    switch (mathOperator)                               // Switch on the math operator
+    {
+        case '/':                                       // If the math operator is "/"
+            solution = calcValue / dbDisplayVal;        // Divide the calc value by the display value
+            break;
+        case '*':                                       // If the math operator is "*"
+            solution = calcValue * dbDisplayVal;        // Multiply the calc value by the display value
+            break;
+        case '+':                                       // If the math operator is "+"
+            solution = calcValue + dbDisplayVal;        // Add the calc value to the display value
+            break;
+        case '-':                                       // If the math operator is "-"
+            solution = calcValue - dbDisplayVal;        // Subtract the display value from the calc value
+            break;
+    }
+
+    ui->Display->setText(QString::number(solution));    // Set the display to the solution   
 }

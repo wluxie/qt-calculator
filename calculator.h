@@ -25,11 +25,12 @@ class calculator : public QMainWindow
 
     private:
         Ui::calculator *ui;
+        QString buttonVal = button->text();
+        QPushButton *button = (QPushButton *)sender();
+        QString displayVal = ui->Display->text();
+
         double calcValue = 0.0;
-        bool divTrigger = false;
-        bool multTrigger = false;
-        bool addTrigger = false;
-        bool subTrigger = false;
+        char mathOperator;
 
     public:
         calculator(QWidget *parent = nullptr);

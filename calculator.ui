@@ -6,12 +6,17 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>573</width>
+    <width>567</width>
     <height>417</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>calculator</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+  background-color: black;
+}</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
@@ -502,7 +507,7 @@ QPushButton:pressed{
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>573</width>
+     <width>567</width>
      <height>25</height>
     </rect>
    </property>
