@@ -19,19 +19,22 @@ calculator::calculator(QWidget *parent) : QMainWindow(parent), ui(new Ui::calcul
         buttonName = "button" + QString::number(i);                         // Create a string with the name of the button
 
         numButtons[i] = calculator::findChild<QPushButton *>(buttonName);   // Find the button in the UI
-        connect(numButtons[i],                                              // Connect the button to the num_pressed() slot
-                SIGNAL(released()),                                         // When the button is released
-                this,                                                       // Call the calculator class
-                SLOT(num_pressed()));                                       // Call the num_pressed() slot
+        
+        // Connect the button to the num_pressed() slot:
+        //      The SIGNAL() macro is used to check the button's clicked() signal, which then calls the this->SLOT() macro
+        //      The SLOT() macro is used to connect the num_pressed() slot to the button's clicked() signal
+        connect(numButtons[i], SIGNAL(released()), this, SLOT(num_pressed()));
     }
 
-    // Connect the math buttons to the math_button_pressed() slot & the equal button to the equal_button_pressed() slot
+    // Connect the rest of the buttons to their respective slots:
+    //      The SIGNAL() macro is used to check the button's clicked() signal, which then calls the this->SLOT() macro
+    //      The SLOT() macro is used to connect the math_button_pressed() slot to the button's clicked() signal
+    connect(ui->buttonAC, SIGNAL(released()), this, SLOT(ac_button_pressed()));
     connect(ui->buttonAdd, SIGNAL(released()), this, SLOT(math_button_pressed()));
     connect(ui->buttonSub, SIGNAL(released()), this, SLOT(math_button_pressed()));
     connect(ui->buttonMul, SIGNAL(released()), this, SLOT(math_button_pressed()));
     connect(ui->buttonDiv, SIGNAL(released()), this, SLOT(math_button_pressed()));
     connect(ui->buttonEqual, SIGNAL(released()), this, SLOT(equal_button_pressed()));
-    connect(ui->buttonAC, SIGNAL(released()), this, SLOT(ac_button_pressed()));
 }
 
 
@@ -39,10 +42,7 @@ calculator::calculator(QWidget *parent) : QMainWindow(parent), ui(new Ui::calcul
 
 // ==== Destructor =======================================================
 // =======================================================================
-calculator::~calculator()
-{
-    delete ui;
-}
+calculator::~calculator() { delete ui; }    // Yeet the UI off from memory
 
 
 
@@ -51,12 +51,12 @@ calculator::~calculator()
 // =======================================================================
 void calculator::num_pressed()
 {
-    QPushButton *button = (QPushButton *)sender();
-    QString buttonVal = button->text();
-    QString displayVal = ui->Display->text();
+    QPushButton *button = (QPushButton *)sender();      // Create a pointer to the button that was pressed
+    QString buttonVal = button->text();                 // Get the text of the button that was pressed
+    QString displayVal = ui->Display->text();           // Get the text of the display
 
-    QString qsNewVal;
-    double dbNewVal;
+    QString qsNewVal;                                   // Create a QString to hold the new value
+    double dbNewVal;                                    // Create a double to hold the new value
 
     if ((displayVal.toDouble() == 0) || (displayVal.toDouble() == 0.0)) // If the display is 0 or 0.0
     {
@@ -66,9 +66,9 @@ void calculator::num_pressed()
     {
         qsNewVal = displayVal + buttonVal;              // Concatenate the button value to the display value
         dbNewVal = qsNewVal.toDouble();                 // Convert the new value to a double
-        ui->Display->setText(QString::number(dbNewVal,  // Set the display to the new value
-                                             'g',       // Use scientific notation if needed
-                                             16));      // Set the precision to 16
+
+        // Set the display to the new value, & prevent the display from showing more than 15 digits
+        ui->Display->setText(QString::number(dbNewVal,'g', 16));
     }
 }
 
@@ -79,9 +79,9 @@ void calculator::num_pressed()
 // =======================================================================
 void calculator::math_button_pressed()
 {
-    QPushButton *button = (QPushButton *)sender();
-    QString buttonVal = button->text();
-    QString displayVal = ui->Display->text();
+    QPushButton *button = (QPushButton *)sender();      // Create a pointer to the button that was pressed
+    QString buttonVal = button->text();                 // Get the text of the button that was pressed
+    QString displayVal = ui->Display->text();           // Get the text of the display
 
     calcValue = displayVal.toDouble();                  // Convert the display value to a double
     
@@ -112,9 +112,9 @@ void calculator::math_button_pressed()
 // =======================================================================
 void calculator::equal_button_pressed()
 {
-    QPushButton *button = (QPushButton *)sender();
-    QString buttonVal = button->text();
-    QString displayVal = ui->Display->text();
+    QPushButton *button = (QPushButton *)sender();      // Create a pointer to the button that was pressed
+    QString buttonVal = button->text();                 // Get the text of the button that was pressed
+    QString displayVal = ui->Display->text();           // Get the text of the display
     
     double solution = 0.0;                              // Create a double to hold the solution
     double dbDisplayVal = displayVal.toDouble();        // Convert the display value to a double

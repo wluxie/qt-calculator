@@ -24,20 +24,20 @@ class calculator : public QMainWindow
     Q_OBJECT
 
     private:
-        Ui::calculator *ui;
+        Ui::calculator *ui;                     // Pointer to the UI
     
-        double calcValue = 0.0;
-        char mathOperator;
+        double calcValue = 0.0;                 // Holds the value of the calculator
+        char mathOperator;                      // Holds the math operator
 
     public:
         calculator(QWidget *parent = nullptr);
         ~calculator();
 
     private slots:
-        void num_pressed();
-        void math_button_pressed();
-        void equal_button_pressed();
-        void ac_button_pressed();
+        void num_pressed();                     // Func to handle number button presses
+        void math_button_pressed();             // Func to handle math operations
+        void equal_button_pressed();            // Func to handle the equal button press
+        void ac_button_pressed();               // Func to handle the AC button press
 };
 
 
